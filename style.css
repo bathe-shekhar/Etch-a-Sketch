@@ -1,0 +1,67 @@
+body {
+    align-items: center;
+    background-color: lightblue;
+}
+
+#container {
+    border: 1px solid red;
+    width: 480px;
+    height: 480px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-block label {
+    font-size: 22px;
+}
+
+.row,
+.col {
+    outline: thin solid rgb(170, 170, 170);
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-basis: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+
+.btn-go,
+.btn-clear {
+    color: #EFEFEF;
+    background-color: cornflowerblue;
+    width: 75px;
+    height: 30px;
+    font-size: 22px;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+}
+
+.btn-go:hover,
+.btn-clear:hover {
+    background-color: goldenrod;
+}
+
+.rowcolvalue {
+    width: 75px;
+    height: 30px;
+    font-size: 22px;
+}
+
+.input-block {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.error-msg {
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+}
